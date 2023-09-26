@@ -5,10 +5,6 @@ CREATE DATABASE ecommerce_db;
 USE ecommerce_db;
 
 -- Create the Category table
-CREATE TABLE Category (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  category_name VARCHAR(255) NOT NULL
-);
 
 -- Create the Product table
 CREATE TABLE Product (
